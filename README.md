@@ -1,0 +1,2 @@
+Cancer is a generalized term for an intricate collection of many diseases demonstrated by uncontrolled division and spread of abnormal cells in the human body. Thus, cancer originates in cells, the building blocks of a human body. Since cancer is primarily caused by genetic mutations in cells, research in cancer genomics is widespread. 
+Genetic studies, however, cannot provide information on cellular metabolic activities, simply because the former is, in principle, qualitative while the latter is quantitative. 
