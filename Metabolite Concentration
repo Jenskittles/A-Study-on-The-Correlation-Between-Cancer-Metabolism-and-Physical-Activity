@@ -1,1 +1,31 @@
+[
+    {
+        "Metabolite_ID": "M1",
+        "Metabolite_Name": "Lactate",
+        "Baseline_Concentration": 1.0,
+        "Post_Exercise_Concentration": 2.0,
+        "Mean_Fold_Change": 2.0
+    },
+    {
+        "Metabolite_ID": "M2",
+        "Metabolite_Name": "Glucose",
+        "Baseline_Concentration": 5.0,
+        "Post_Exercise_Concentration": 4.5,
+        "Mean_Fold_Change": 0.9
+    }
+]
+
+import csv
+
+# Data to be written to CSV
+data = [
+    ["Metabolite_ID", "Metabolite_Name", "Baseline_Concentration", "Post_Exercise_Concentration", "Mean_Fold_Change"],
+    ["M1", "Lactate", 1.0, 2.0, 2.0],
+    ["M2", "Glucose", 5.0, 4.5, 0.9]
+]
+
+# Write data to CSV
+with open('metabolomics_data.csv', mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
 
