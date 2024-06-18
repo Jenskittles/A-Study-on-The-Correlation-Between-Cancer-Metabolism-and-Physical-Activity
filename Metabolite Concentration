@@ -2,16 +2,16 @@
     {
         "Metabolite_ID": "M1",
         "Metabolite_Name": "Lactate",
-        "Baseline_Concentration": 1.0,
-        "Post_Exercise_Concentration": 2.0,
-        "Mean_Fold_Change": 2.0
+        "Baseline_Concentration": 13.0,
+        "Post_Exercise_Concentration": 28.0,
+        "Mean_Fold_Change": 25.01
     },        
     {
         "Metabolite_ID": "M2",
         "Metabolite_Name": "Glucose",
-        "Baseline_Concentration": 5.0,
-        "Post_Exercise_Concentration": 4.5,
-        "Mean_Fold_Change": 0.9
+        "Baseline_Concentration": 1.0,
+        "Post_Exercise_Concentration": 3.0,
+        "Mean_Fold_Change": 1.32
     }
 ]
 
