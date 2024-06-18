@@ -1,6 +1,11 @@
- ``` mermaid ```
-t TD
-      Start --> Understand_Recon3D_JSON_Structure
+```markdown
+# Project Documentation
+
+## Flowchart
+
+```mermaid
+graph TD
+    Start --> Understand_Recon3D_JSON_Structure
     Understand_Recon3D_JSON_Structure --> Retrieve_Metabolomics_Data
     Retrieve_Metabolomics_Data --> Mapping_Metabolomics_Data_to_Recon3D
     Mapping_Metabolomics_Data_to_Recon3D --> Normalize_and_Integrate_Data
@@ -11,14 +16,13 @@ t TD
     Statistical_Analysis --> Interpretation_and_Conclusion
     Interpretation_and_Conclusion --> End
 
-
-    style Start fill:#style Start fill:#9f9,stroke:#333,stroke-width:2px;
+    style Start fill:#9f9,stroke:#333,stroke-width:2px;
     style End fill:#f9f,stroke:#333,stroke-width:2px;
     style Understand_Recon3D_JSON_Structure fill:#ff9,stroke:#333,stroke-width:2px;
     style Retrieve_Metabolomics_Data fill:#f9f,stroke:#333,stroke-width:2px;
     style Mapping_Metabolomics_Data_to_Recon3D fill:#9ff,stroke:#333,stroke-width:2px;
     style Normalize_and_Integrate_Data fill:#f9f,stroke:#333,stroke-width:2px;
-    style Overlay_Data_on_Recon3D fill:#ff9,stroke:#343,stroke-width:2px;
+    style Overlay_Data_on_Recon3D fill:#ff9,stroke:#333,stroke-width:2px;
     style Visualization_and_Analysis fill:#f9f,stroke:#333,stroke-width:2px;
     style Compare_Regular_vs_Oncogenic_Respiration fill:#9ff,stroke:#333,stroke-width:2px;
     style Statistical_Analysis fill:#f9f,stroke:#333,stroke-width:2px;
