@@ -1,11 +1,11 @@
-[11
+[
     {
         "Metabolite_ID": "M1",
         "Metabolite_Name": "Lactate",
         "Baseline_Concentration": 1.0,
         "Post_Exercise_Concentration": 2.0,
         "Mean_Fold_Change": 2.0
-    },
+    },        
     {
         "Metabolite_ID": "M2",
         "Metabolite_Name": "Glucose",
