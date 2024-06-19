@@ -1,6 +1,25 @@
-# Project Documentation
-
-## Flowchart
 """Mermaid
+TD
+      Start --> Understand_Recon3D_JSON_Structure
+    Understand_Recon3D_JSON_Structure --> Retrieve_Metabolomics_Data
+    Retrieve_Metabolomics_Data --> Mapping_Metabolomics_Data_to_Recon3D
+    Mapping_Metabolomics_Data_to_Recon3D --> Normalize_and_Integrate_Data
+    Normalize_and_Integrate_Data --> Overlay_Data_on_Recon3D
+    Overlay_Data_on_Recon3D --> Visualization_and_Analysis
+    Visualization_and_Analysis --> Compare_Regular_vs_Oncogenic_Respiration
+    Compare_Regular_vs_Oncogenic_Respiration --> Statistical_Analysis
+    Statistical_Analysis --> Interpretation_and_Conclusion
+    Interpretation_and_Conclusion --> End
 
-[![](https://mermaid.ink/img/pako:eNqdlVFv2yAUhf9KRF8TKW2e5odKU7OHTUojNeueLKEbuHbQMFhwSZdV_e_DOE2TNnHt-Qm453y-MgfzzISVyDJWaPskNuBo9HOem1F8VtTMJpPb0aOR6DyBkfwBhTWzOf-xWt7zFbkgKDhsDZ_KEuwBySncIl8gwdpqWynh-RwIWsrlerIvoK6VKT9WOdnX17agPsqEvLeuAq3-Im9a_24ISweERz11KRJiuUWnYdfirTlt5EIxGX8pHxoykIqVhv7VgN555Vvv5Xqy39mqBocRWQYNjm89XxphSzRKxEVfK5ecLayvOqHj9pPypATodz2dqyRL82Fc7ZDeur2zRujgDy10ShLkm5G5yfdyTzuN-yQWSuvsar0uxp6c_Y3Z1XQ63Y8nT0rSJrup_xz7Iuo_XJ_HuGUWX96Ys5vZKfP6lNkR6jOwWTesV7CHYztDPhx3KfXDSR1nYDis9xkYjj57LoZjuo9IPx4bswrjdioZf-3PDT1ntMEKc5bFocQCgqac5eYlSiGQXe2MYFkB2uOYORvKzWEWahlzMFcQ81AdVlEqsm7R3h7pEnn5BylWPYY?type=png)](https://mermaid.live/edit#pako:eNqdlVFv2yAUhf9KRF8TKW2e5odKU7OHTUojNeueLKEbuHbQMFhwSZdV_e_DOE2TNnHt-Qm453y-MgfzzISVyDJWaPskNuBo9HOem1F8VtTMJpPb0aOR6DyBkfwBhTWzOf-xWt7zFbkgKDhsDZ_KEuwBySncIl8gwdpqWynh-RwIWsrlerIvoK6VKT9WOdnX17agPsqEvLeuAq3-Im9a_24ISweERz11KRJiuUWnYdfirTlt5EIxGX8pHxoykIqVhv7VgN555Vvv5Xqy39mqBocRWQYNjm89XxphSzRKxEVfK5ecLayvOqHj9pPypATodz2dqyRL82Fc7ZDeur2zRujgDy10ShLkm5G5yfdyTzuN-yQWSuvsar0uxp6c_Y3Z1XQ63Y8nT0rSJrup_xz7Iuo_XJ_HuGUWX96Ys5vZKfP6lNkR6jOwWTesV7CHYztDPhx3KfXDSR1nYDis9xkYjj57LoZjuo9IPx4bswrjdioZf-3PDT1ntMEKc5bFocQCgqac5eYlSiGQXe2MYFkB2uOYORvKzWEWahlzMFcQ81AdVlEqsm7R3h7pEnn5BylWPYY)
+
+    style Start fill:#bbf,stroke:#000,stroke-width:2px
+    style End fill:#bbf,stroke:#000,stroke-width:2px
+    style Understand_Recon3D_JSON_Structure fill:#f9f,stroke:#333,stroke-width:1px
+    style Retrieve_Metabolomics_Data fill:#f9f,stroke:#333,stroke-width:1px
+    style Mapping_Metabolomics_Data_to_Recon3D fill:#f9f,stroke:#333,stroke-width:1px
+    style Normalize_and_Integrate_Data fill:#f9f,stroke:#333,stroke-width:1px
+    style Overlay_Data_on_Recon3D fill:#f9f,stroke:#333,stroke-width:1px
+    style Visualization_and_Analysis fill:#f9f,stroke:#333,stroke-width:1px
+    style Compare_Regular_vs_Oncogenic_Respiration fill:#f9f,stroke:#333,stroke-width:1px
+    style Statistical_Analysis fill:#f9f,stroke:#333,stroke-width:1px
+    style Interpretation_and_Conclusion fill:#f9f,stroke:#333,stroke-width:1px
