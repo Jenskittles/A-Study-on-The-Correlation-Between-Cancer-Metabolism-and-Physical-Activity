@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaid Diagram Example</title>
+    <!-- Include Mermaid CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.min.css">
+    <!-- Optional: Include a theme for Mermaid diagrams -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.dark.min.css">
+    <!-- Optional: Include additional CSS for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mermaid Diagram Example</h1>
+        <p>This HTML file demonstrates a Mermaid diagram embedded in an HTML document.</p>
+        
+        <!-- Mermaid Diagram Container -->
+        <div class="mermaid">
+            graph TD;
+            Start --> Understand_Recon3D_JSON_Structure;
+            Understand_Recon3D_JSON_Structure --> Retrieve_Metabolomics_Data;
+            Retrieve_Metabolomics_Data --> Mapping_Metabolomics_Data_to_Recon3D;
+            Mapping_Metabolomics_Data_to_Recon3D --> Normalize_and_Integrate_Data;
+            Normalize_and_Integrate_Data --> Overlay_Data_on_Recon3D;
+            Overlay_Data_on_Recon3D --> Visualization_and_Analysis;
+            Visualization_and_Analysis --> Compare_Regular_vs_Oncogenic_Respiration;
+            Compare_Regular_vs_Oncogenic_Respiration --> Statistical_Analysis;
+            Statistical_Analysis --> Interpretation_and_Conclusion;
+            Interpretation_and_Conclusion --> End;
+        </div>
+
+        <!-- Optional: JavaScript to render Mermaid diagrams -->
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10.0.0/dist/mermaid.min.js"></script>
+        <script>
+            // Initialize Mermaid on page load
+            document.addEventListener('DOMContentLoaded', function() {
+                mermaid.initialize({ startOnLoad: true });
+            });
+        </script>
+    </div>
+</body>
+</html>
