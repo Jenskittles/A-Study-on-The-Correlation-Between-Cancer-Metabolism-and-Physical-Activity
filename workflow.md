@@ -1,6 +1,6 @@
-# Workflow Diagram Example
+# Diagram 
 
-This Markdown file demonstrates a simple workflow using a Mermaid diagram.
+Mermaid diagram showing steps used in COBRA approach.
 
 ```mermaid
 graph TD;
